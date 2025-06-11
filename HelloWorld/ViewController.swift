@@ -16,8 +16,8 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
         greetingLabel.isHidden.toggle()
         GreetingButton.layer.cornerRadius = 10
-
     }
+    
     @IBAction func greetingButtonDidTapped(_ sender: UIButton) {
         greetingLabel.isHidden.toggle()
         sender.setTitle(
